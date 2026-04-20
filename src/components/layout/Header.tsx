@@ -2,6 +2,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Menu, X, ArrowRight } from "lucide-react";
 import TopBar from "./TopBar";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -20,14 +21,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <TopBar />
       <div className="container-x flex items-center justify-between py-4">
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-11 h-11 rounded-full bg-gradient-to-br from-gold to-primary flex items-center justify-center text-white font-serif text-xl shadow-md">
-            <span className="-rotate-12">✦</span>
-          </div>
-          <div className="leading-tight">
-            <div className="font-serif text-xl text-primary tracking-wide">ANANT</div>
-            <div className="font-serif text-xs tracking-[0.3em] text-gold -mt-1">FINSERV</div>
-          </div>
+        <Link to="/" className="flex items-center group">
+          <img src={logo} alt="Anant Finserv" className="h-12 w-auto" width={256} height={64} />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
