@@ -11,6 +11,7 @@ import Testimonials from "@/components/home/Testimonials";
 import Vision from "@/components/home/Vision";
 import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
+import SocialUpdates from "@/components/home/SocialUpdates";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       <StatsBand />
       <Solutions />
       <Process />
+      <SocialUpdates />
       <WhoWeServe />
       <Testimonials />
       <Vision />
