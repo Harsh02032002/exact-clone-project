@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Phone } from "lucide-react";
-import advisor from "@/assets/cta-advisor.png";
+import advisor from "@/assets/aa.png";
 
 const CTA = () => (
   <section className="section bg-background">

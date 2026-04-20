@@ -1,7 +1,7 @@
 import { Check, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import about1 from "@/assets/about-team.jpg";
-import about2 from "@/assets/about-planning.jpg";
+import about1 from "@/assets/about-8.jpg";
+import about2 from "@/assets/about-10.jpg";
 
 const points = [
   "We consolidate your entire net worth into one clear strategy",
