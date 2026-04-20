@@ -15,12 +15,12 @@ const AboutSection = () => (
   <section className="section bg-muted/40">
     <div className="container-x grid lg:grid-cols-2 gap-14 items-center">
       <div className="relative">
-        <div className="absolute -top-6 -left-6 z-10 bg-gold text-primary-deep p-6 rounded-md shadow-lg w-40 text-center">
-          <div className="font-serif text-4xl">20+</div>
-          <div className="text-xs uppercase tracking-wider mt-1 font-semibold">Years of<br/>Experience</div>
+        <div className="absolute top-0 left-0 md:-top-6 md:-left-6 z-10 bg-gold text-primary-deep p-6 rounded-md shadow-lg w-[40%] max-w-40 text-center">
+          <div className="font-serif text-3xl md:text-4xl">20+</div>
+          <div className="text-[10px] md:text-xs uppercase tracking-wider mt-1 font-semibold">Years of<br/>Experience</div>
         </div>
         <img src={about1} alt="Anant Finserv Team" loading="lazy" width={1024} height={768} className="rounded-lg shadow-xl w-full" />
-        <img src={about2} alt="Financial planning" loading="lazy" width={400} height={400} className="absolute -bottom-10 -right-4 md:right-8 w-44 md:w-56 rounded-lg border-8 border-background shadow-xl" />
+        <img src={about2} alt="Financial planning" loading="lazy" width={400} height={400} className="absolute -bottom-6 right-0 md:-bottom-10 md:-right-4 lg:right-8 w-1/2 md:w-56 rounded-lg border-[6px] md:border-8 border-background shadow-xl" />
       </div>
       <div>
         <span className="eyebrow">About Us</span>
